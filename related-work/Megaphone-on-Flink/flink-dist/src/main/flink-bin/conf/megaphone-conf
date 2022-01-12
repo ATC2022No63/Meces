@@ -1,0 +1,11 @@
+kafka.sync.topic: sync2
+kafka.host: slave205:9092
+kafka.session.timeout: 60000
+batch.enabled: on
+batch.interval: 500
+migration.port: 25555
+numberOfSink: 1
+upstream.task.name: FlatMap-Splitter
+rescale.task.name: FlatMap-Counter
+fetch.topic: fetch1
+migration.number: 32
